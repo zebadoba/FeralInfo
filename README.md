@@ -14,6 +14,12 @@ Check your ssh client and ftp clients for saved passwords.
 
 **Your FTP password is the same as your ssh password, recover the ftp/ssh password as described below, then you can reset your deluge/rutorrent password.**
 
+## Password TL;DR, Types You Migh Have Saved
+1. Your Feral Manager password.  You used this to log in to the Feral Web page, pay your bill, set up software, and Ctrl-C & Ctrl-V your deluge/rutorrent password and your SSH/FTP passwords.  Now useless as the server that runs the manager is **gone**.
+1. Your SHH/FTP password.  The most important.  Get this one password and you can reset everything else.
+1. Your web interface password for deluge/rutorrent.  Login to your slot via the webui.
+1. OpenVPN keys/password, does nothing for us right now.
+
 ### Recovering password from Filezilla
 From filezilla, export... site manager, open file in notepad, find <Pass encoding="base64">XXXXXXX</Pass>, put XXXXXXX into http://base64decode.net/
 
